@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>IES College Of Technologr Form</h1>
+    <p>Please fil out the below to rergister</p>
+    <hr>
+    <form>
+
+        
+        <h2>Personal Detaule</h2>
+        <label for="first">First Name:</label>
+        <input type="text" name="first" id="first" placeholder="Name" required>
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" id="last" placeholder="Title" required>
+        <br><br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="date" id="date">
+         <br><br>
+        <label>Gender:</label>
+        <br>
+        
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="other" value="Other">
+        <label for="other">Other</label>
+    
+
+
+        <p>Upload your Photo:</p>
+        <input type="file" name="file">
+        <hr>
+
+
+        <h3>Contact Information</h3>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="Your Email Id">
+        <br><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="number" id="phone" placeholder="Your Phone Number">
+         <br><br>
+        <label for="add">Permanet Address:</label>
+        <br>
+        <textarea name="address" id="add" rows="4" cols="30"></textarea>
+    
+    
+
+        <hr>
+        <h3>Academic Information</h3>
+        <label for="select">Select Your Course:</label>
+        <br>
+        <select name="course" id="select">
+        <option value="CSE">CSE</option>
+        <option value="DS">DS</option>
+        <option value="Cyber">Cyber</option>
+        <option value="ME">ME</option>
+        </select>
+        <p>Extracurricular Interest:</p>
+        <br>
+    
+        
+        <input type="checkbox" name="game" id="sport" value="Sport">
+        <label for="sport">Sport</label>
+
+        <input type="checkbox" name="game" id="music" value="Music & Arts">
+        <label for="music">Music & Arts</label>
+
+        <input type="checkbox" name="game" id="clubs" value="Technology Clubs">
+        <label for="clubs">Technology Clubs</label>
+
+        <input type="checkbox" name="game" id="volunt" value="Volunteering">
+        <label for="volunt">Volunteering</label>
+        <hr>
+
+
+        <h3>Create Your Account</h3>
+        <label for="account">Create a Password</label>
+        <input type="password" name="apss" id="account">
+        <br><br>
+        <label for="security">Security Question</label>
+        <br>
+        <select name="security" id="security">
+            <option value="fiver">Fiver</option>
+            <option value="head pain">Head pain</option>
+            <option value="Important work">Important Work</option>
+        </select>
+        <br><br>
+        <label for="ans">Security Answer</label>
+        <input type="text" name="ans" id="ans">
+        <br><br>
+        <input type="checkbox" name="box" id="chech">
+        <label for="chech">I agree the Teams and Conditions</label>
+        <hr>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </form>
+</body>
+</html>

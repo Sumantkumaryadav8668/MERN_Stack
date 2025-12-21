@@ -1,0 +1,47 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+}
+
+.containar{
+   padding: 10px;
+   position: relative;
+}
+
+.box{
+   background-color: rgb(113, 80, 144);
+   height: 100px;
+   width: 200px;
+   /* Animation ka name */
+   animation-name: move;
+   /* kitne time me change hona h */
+   animation-duration: 7s;
+   /* kitne bar move karna hai */
+   animation-iteration-count: infinite;
+   /* conroal moving time */
+   animation-timing-function: ease-out;
+   position: absolute;
+
+}
+
+/* keyframe with animation name */
+@keyframes move{
+   /* initial position */
+   from{
+      background-color: rgb(113, 80, 144);
+      top: 10px;
+      left: 10px;
+   }
+   /* final position */
+   to{
+      background-color: rgb(255, 0, 38);
+      top: 10px;
+      left: 1340px;
+   }
+}

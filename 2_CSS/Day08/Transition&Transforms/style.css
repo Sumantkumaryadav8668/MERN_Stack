@@ -1,0 +1,35 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+}
+
+.containar{
+   height: 100%;
+   background-color: rgb(148, 200, 183);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box{
+   height: 200px;
+   width: 200px;
+   background-color: rgb(203, 216, 10);
+   cursor: pointer;
+   border-radius: 10px;
+   border: 2px solid red;
+   transition-property:all;
+   transition-duration: 5s;
+}
+
+.box:hover{
+   background-color: blue;
+   height: 400px;
+   width: 400px;
+}

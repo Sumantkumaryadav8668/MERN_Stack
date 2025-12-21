@@ -1,0 +1,354 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100vh;
+   /* width:100%; */
+   background-color: #2a2a2aa9;
+   font-family: sans-serif;
+   color: darkgray;
+   line-height: 1.6;
+}
+
+.main{
+   display: grid;
+   max-width: 1000px;
+   grid-template-columns:350px 1fr ;
+   gap: 40px;
+   padding-top: 40px;
+   margin: auto;
+   /* animation-name: screen; */
+}
+   /* sinebar section */
+.sinebar{
+   height: 90vh;
+   background-color:#2a2a2ae3;
+   border: 1px solid #3a3a3a;
+   border-radius: 16px;
+   padding: 40px;
+   overflow-X: hidden;
+   /* position: sticky;
+   top: 40px; */
+}
+   /* Profile Section */
+.profile{
+   text-align: center;
+}
+.profile img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+   border: 1px solid #3a3a3a;
+}
+.profile h2{
+   font-size: 1.5rem;
+   font-weight: 700px;
+   margin-top: 10px;
+   color: #e0e0e0;
+}
+.profile p{
+   background-color: #3a3a3a;
+   color: #FFBF00;
+   padding: 5px 15px;
+   border: 1px solid #3a3a3a;
+   font-size: 0.8rem;
+   display: inline-block;
+   margin-top: 10px;
+}
+      /* Contact section */
+.contact{
+   margin-top: 30px;
+   border-top: 3px solid #0b063a2e;
+   padding: 20px;
+}
+.label{
+   font-weight: 500;
+   font-size: 0.8rem;
+   color: #a0a0a0;
+}
+.value{
+   color: #e0e0e0;
+   text-decoration: none;
+}
+.email,.phone{
+   margin-bottom: 15px;
+}
+    /* Social section */
+.social{
+   border-top: 3px solid #0b063a2e;
+   text-align: center;
+   padding-top: 20px;
+   
+}
+.social img{
+   height: 30px;
+   width: 30px;
+   border-radius: 15px;
+   margin-left: 10px;
+   background-color: #ffbf00cc;
+   
+}
+
+#linkedin {
+  position: relative;
+  animation: moveLeft 3s ease-in-out alternate;
+}
+
+@keyframes moveLeft {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+#github{
+  position: relative;
+  animation: moveRight 3s ease-in-out alternate;
+}
+
+@keyframes moveRight {
+  from {
+    left: 150px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+   /* main content section */
+.content{
+   height: 90vh;
+   overflow-y: scroll;
+   /* max-width: auto; */
+   /* scrollbar-width: 0; */
+   /* scroll-snap-type: none;
+   scrollbar-color: transparent; */
+   scrollbar-width: none;
+   background-color:#2a2a2ae3;
+   border: 1px solid #3a3a3a;
+   border-radius: 16px;
+   padding: 30px;
+}
+/*  navigation  */
+#navigation{
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   /* width: f-; */
+   /* position: fixed; */
+   /* width: 100%; */
+   /* background-color: #2a2a2ae3; */
+   /* background-color: black; */
+   
+}
+
+/* #fakeNav{
+   height: 45px;
+} */
+nav{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 30px;  
+  
+}
+nav a{
+   color:#a0a0a0;
+   font-weight: 500;
+   text-decoration: none;
+   /* without this use output are run */
+   transition: color 0.3s ease;
+}
+.navcolor,nav a:hover{
+   color: #FFBF00;
+}
+   /* About section */
+#about{
+   border-top: 3px solid #0b063a2e;
+   margin-bottom: 20px;
+}
+.head{
+   color: #e0e0e0;
+   font-size: 1.8rem;
+   margin-bottom: 15px;
+}
+.line{
+   width: 50px;
+   height: 5px;
+   background-color: #FFBF00;
+   margin-bottom: 30px;
+}
+#about p{
+   /* yah pure paragraph ko ek hi lavel me karta ha */
+   text-align: justify;
+}
+
+/* skills section */
+.grid{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+   gap: 20px;
+}
+.item{
+   padding: 25px;
+   border-radius: 10px;
+   border: 2px solid #3a3a3a;
+   background-color:rgba(0, 0, 0, 0.341);
+   text-align: center;
+   transition: tranform 0.3s ease;
+   box-shadow: 0.3s ease;
+   &:hover{
+      transform: scale(1.1);
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+   }
+}
+.item img{
+   height: 35px;
+   width: 40px;
+   background-color: #FFBF00;
+   border-radius: 10px;
+   border: 1px solid #3a3a3a;
+}
+.grid h3{
+   margin-top: 20px;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+/* Education section */
+#education{
+   margin-top: 20px;
+}
+#education .line{
+   margin-bottom: 20px;
+}
+.box{
+   position: relative;
+   /* margin-top: 30px; */
+}
+.year{
+   font-size: 0.9rem;
+   margin-bottom: 5px;
+   color: #a0a0a0;
+}
+.degree{
+   color: #e0e0e0;
+   font-size: 1.2rem;
+   margin-bottom: 5px;
+}
+.college{
+   color: #a0a0a0;
+   margin-bottom: 5px;
+   font-style: italic;
+}
+.work{
+   color: #a0a0a0;
+}
+.education1,.education2{
+   margin-bottom: 20px;
+   padding-left: 25px;
+   position: relative;
+}
+.education2 ul{
+   margin-left: 30px;
+   font-size: 18px;
+}
+.gola{
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   border: 3px solid #FFBF00;
+   position: absolute;
+   top: 5px;
+   left: 0px;
+   z-index: 2;
+}
+.liner{
+   position: absolute;
+   width: 5px;
+   border: 3px solid #3a3a3a;
+   top: 10px;
+   left: 5px;
+   bottom: 0px;
+}
+
+/* potfolio sectio */
+.card{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+.project{
+   border: 1px solid #3a3a3a;
+   border-radius: 8px;
+   overflow: hidden;
+   transition: tranform 0.5s ease 2s;
+   box-shadow: 0.5s ease;
+   &:hover{
+      transform: translateY(-7px);
+      border-bottom:  0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+   }
+}
+ .project a{
+   object-fit: cover;
+            /* ancher tag ke line ko none karne ke liye */
+   text-decoration: none;     
+}
+.project img{
+   height: 180px;
+   /* width: 250px; */
+   object-fit: cover;
+   
+}
+.card1{
+   padding: 10px;
+}
+.card h3{
+   color:#e0e0e0;
+   margin-bottom: 10px;
+}
+.card span{
+   border: 1px solid black;
+   border-radius: 5px;
+   color:#FFBF00;
+   padding: 6px;
+   margin-right: 6px;
+}
+
+
+@media screen and (max-width:750px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+
+    #navigation {
+        /* Adjust nav for smaller screens */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sidebar{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+/* @media screen and (max-with:1100px) {
+
+   .main{
+      grid-template-columns:1fr;
+      padding: 20px;
+      /* min-width: 20vw; 
+   }
+
+   .sinebar{
+      position: static;
+      height: auto;
+   }
+   
+} */

@@ -1,0 +1,41 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;align-items: center;
+}
+
+.containar{
+    background-color: bisque;
+    width: 70%;
+    padding: 10px 0px;
+    font-size: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    /* whitw-space:nowrap   yah element kok wrap nahi hone deta hai  niche nahi aane deta hai*/
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+p{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -70%;
+    }
+}

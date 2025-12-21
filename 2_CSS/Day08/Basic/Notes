@@ -1,0 +1,28 @@
+
+
+                 Tansitions Properties  
+         (jis box me change karna h ussi me apply hona)
+
+    transition-Properties:(all);           {yah sabhi Properties ko acess karta h (hover me) }
+    transition-duration:(time);            {yah kitne samay me start hona ye batata hai}
+    transition-timing-function:(linear);   {yah speed ko control karne ke liye use hota hai }
+    transition-delay:(time);               {yah kitne time late se start hoga ye batata hai}
+
+       soty Properties:- transition:all,3s,linear,2s;(Properties,duration,time-function,delay)
+       
+
+    boxname:hover{
+        apply all Properties
+    }
+
+
+
+
+                 Tranform Properties
+            (use for div rotate and deep )
+
+                perfective:size;    (yah div ke parent me apply hota hai)
+     Tranform:translate(asix)(size);        {div ko slavve karta hai according to asix}
+     Tranform:translate{size of asix}       {ek sath do asix ko control karta hai}
+     Tranform:rotate(degree);               {yah div ko rotate karta hai}
+     Tranform:skew(asix)(degree);           {move karne ka kam kara hai according to asix}

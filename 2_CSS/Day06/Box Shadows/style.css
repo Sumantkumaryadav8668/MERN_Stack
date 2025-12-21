@@ -1,0 +1,29 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+.box{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    /* box-shadow: 5px 5px 5px 8px blue;*/
+    text-align: center; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 15px red;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+/* there are four base of box of shadow  */
+/* 1.) offset -X    2.) offset-Y   3.) blur radius   4.) spreas radius */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>User person informantion</h3>
+        <label for="name">Enter Your full name:</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <br><br>
+        <label for="email">Enter your Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your email" required>
+        <br><br>
+        <label for="pass">Enter your Password</label>
+        <input type="password" name="pass" id="pass" placeholder="password" required>
+        <br><br>
+        <label for="conform">Confire your Password:</label>
+        <input type="password" name="conf" id="conform" placeholder="Again Password" required>
+        <br><br>
+        <label for="">Enter your gender:</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="male">Female</label>
+        <input type="radio" name="gender" id="other" value="Other">
+        <label for="male">Other</label>
+        <br><br>
+        <label for="dob">Enter your DOB:</label>
+        <br>
+        <input type="date" name="DOB" id="dob">
+        <br><br>
+        <label for="add">Enter your Address</label>
+        <br>
+        <textarea name="address" id="add" rows="4" cols="30"></textarea>
+        <br><br>
+        <label for="Branch">Branch:</label>
+        
+        <select name="Course" id="branch">
+            <option value="CSE">CSE</option>
+            <option value="EX">EX</option>
+            <option value="ME">ME</option>
+            <option value="AIML">AIML</option>
+            <option value="AIDS">AIDS</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

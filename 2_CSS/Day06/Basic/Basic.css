@@ -1,0 +1,85 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+}
+              /* Method 1 */
+
+      /* Default value for Desktop */
+/* .first{
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 220px;
+}
+
+/* Tab ke liye  */
+/* @media screen and (max-width:900px) {
+    .first{
+        background-color: rgb(128, 0, 96);
+        height: 400px;
+        width: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 180px;
+    }
+} */
+
+/* mobile ke liye */
+/* @media screen and (max-width:600px) {
+    .first{
+        background-color: green;
+        height: 300px;
+        width: 250px;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 150px;
+    }
+} */
+
+                            /*Method 2  */
+/* Real time use this approach */
+
+/* Defauil valu for mobile */
+.first{                            
+    background-color: green;
+    height: 300px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+
+/* tab ke liye */
+@media screen and (min-width:600px) {
+    .first{
+        background-color: rgb(128, 0, 96);
+        height: 400px;
+        width: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 180px;
+    }
+}
+
+/* Desktop ke liye */
+@media screen and (min-width:900px) {
+    .first{
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 220px;
+        
+    }
+}

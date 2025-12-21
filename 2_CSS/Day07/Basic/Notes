@@ -1,0 +1,23 @@
+
+             Animation Properties  
+         (jis box me change karna h ussi me apply hona)
+
+    animation-name:(name of animation);     {yah animation ka name batata hai}
+    animation-duration:(time);              {yah kitne samay me start hona ye batata hai}
+    animation-timing-function:(linear);     {yah speed ko control karne ke liye use hota hai }
+    animation-delay:(time);                 {yah kitne time late se start hoga ye batata hai}
+    animation-iteration-count:(time);       {kitne time chalana hai yah batata hai}
+    animation-duration:(alternate);         {yah both side move karta hai}
+    animation-fill-mode(forword);           {yah Properties box ko last me hi rakh deta hai}
+
+
+
+    
+    @keyframes (name of animation){
+        from{       (Initial position hota hai)
+            apply Properties according to user
+        }
+        to{   (Final position hota hai)
+            apply Properties according to user
+        }
+    }

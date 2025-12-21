@@ -1,0 +1,29 @@
+*{
+   margin:0%;
+   padding:0%;
+}
+
+html,body{
+   background-color: aqua;
+   height:100%;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#box{
+   background-color:white;
+   height: 200px;
+   width: 300px;
+   position: relative;
+}
+#circle{
+   background-color: red;
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+   position: absolute;
+   top: 40px;
+   left: 80px;
+}
