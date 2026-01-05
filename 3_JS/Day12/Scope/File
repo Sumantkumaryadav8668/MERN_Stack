@@ -1,0 +1,12 @@
+// Scope;-
+
+// There are three types of Scope
+    // 1> Global Scope 
+        // -> Accessible to everyone
+    // 2> Functional Scope
+        // -> Accessible only to that function
+    // 3> Block Scope
+        // -> Accessible only to that Block
+
+
+        
