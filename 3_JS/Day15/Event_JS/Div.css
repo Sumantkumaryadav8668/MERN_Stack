@@ -1,0 +1,43 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grandfather{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(201, 234, 14, 0.993);
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(224, 20, 5);
+    color: blue;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(220, 9, 182);
+    color: blue;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
