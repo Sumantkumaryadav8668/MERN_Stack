@@ -1,0 +1,38 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pc{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(28, 60, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#laptop{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tab{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
