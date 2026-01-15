@@ -1,10 +1,20 @@
-let grandfather=document.getElementById("grandfather")
-// for(let element of grandfather.children){
-//     element.addEventListener('click',()=>{
-//         element.textContent='i am click';
-//     })
-// }
-let temp=grandfather.children[0];
-temp.addEventListener('click',()=>{
-    temp.textContent='i am clicked'
-})
+
+// let temp=parent;
+// temp.addEventListener('click',(bj)=>{
+//     console.log(bj.target)
+//     // bj.target.textContent="i am clicked";
+// })
+
+                 // Remove EventListener
+
+function listener(obj){
+    obj.target.textContent="i am sumant"
+        // at list one time run
+    document.getElementById('parent').removeEventListener('click',listener)    
+
+} 
+
+document.getElementById('parent').addEventListener('click',listener)
+
+            // on click then no performe action
+// document.getElementById('parent').removeEventListener('click',listener)
