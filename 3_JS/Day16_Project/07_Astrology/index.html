@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div id="first">
+        <h1>Astrology Insights</h1>
+        <form action="" id="form">
+            <label for="name">First Name:-</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label for="lastname">Last Name:-</label>
+            <input type="text" name="lastname" id="lastname" required>
+            <br><br>
+            <label for="day">Day number</label>
+            <input type="text" name="day" id="day" min="1" max="31" required>
+            <br><br>
+            <label for="month">Month Name</label>
+            <input type="text" name="month" id="month" min="1" max="12" required>
+            <br><br>
+            <label for="year">Year number</label>
+            <input type="text" name="year" id="year" min="1000" max="9999" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <h2>Your Feature:-</h2>
+        <div id="display"></div>
+    </div>
+</body>
+    <script src="./script.js"></script>
+</html>
