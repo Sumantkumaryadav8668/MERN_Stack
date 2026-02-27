@@ -1,0 +1,12 @@
+
+javaScript is a single Thread Synchonous Language 
+Single Thread that means one time only one code execute
+Synchonous that means step by stap follow.
+
+JS run the code present in call stack If present setTimer than JS are not wait for execute. this code is handal(remove) in wep API(Application Programming Interface) than code is remove in Call Queue.
+
+code is present in Call Queue.
+Event Loop is First check call Stack empty ot not.then get the code in Call Queue.
+If call Stack is empty than Even loop is present Call Queue code are remove in Call Stack.than JS is code the run in present call stack.  
+
+After execute then call stack and callback Queue both are empty.
