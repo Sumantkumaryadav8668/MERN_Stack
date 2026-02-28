@@ -1,0 +1,32 @@
+// Different between JS Object and JSON(Javascript Object Notetion)
+
+
+
+// Syntac of JS Object :-
+
+// const ans{
+//     name : 'sumant',
+//     age :32,
+//     address : "palamu"
+// }
+// 2> javascript me undefined hota hai
+// 3> javascript me last value ke baad comma(,) allow hai 
+// 4> javascript me function likh sakte hai 
+// 4> javascript key and value ke fkormate me hota hai
+// 5> javascript Universal language nahi hai ise sirf JS hi samjhta hai
+
+
+
+
+// Syntac of JSON :-
+
+// const ans{
+//     "name" : 'sumant',
+//     "age" :32,
+//     "address" : "palamu"
+// }
+// 2> JSON me undefined nahi hota hai
+// 3> JSON me last value ke baad comma(,) allow nahi hota hai 
+// 4> JSON me function likh nahi sakte hai
+// 5> JSON string ke formate me hota hai 
+// 6> JSON Universal language ha iss sab language samjhte hai (C,C++,JAVA,JSON,Python,etc)
