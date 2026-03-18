@@ -44,7 +44,16 @@
 // string,number,array are valied define in side the javascript expression
 // true,flase,null,undefine thrse are valied but not show in the display
 // object is error in side the javascript expression
-const element = <h1>Hello sir {10+30}</h1>
+// const element = <h1>Hello sir {10+30}</h1>
+
+
+          // create component using parameter 
+function App(props){  // argument
+    return(
+        <h1>hello sir ! {props.name} {props.age} </h1>
+    )
+}
+const element =<App name='sumant' age={21}></App>  // pass by value in pair of key and value
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
