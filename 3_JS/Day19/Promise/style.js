@@ -27,7 +27,7 @@
            // This is called Promise Chaning 
 const info = fetch("https://api.github.com/users")
 .then((data)=>{
-    if(!data.ok){   // yah server par check karta hai yadi response nahi mila to ye consition chalega
+    if(!data.ok){   // yah server par check karta hai yadi response nahi mila to ye condition chalega
         throw new Error("data is not founds");
     }
     return data.json();
