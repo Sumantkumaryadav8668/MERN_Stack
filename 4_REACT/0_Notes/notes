@@ -1,0 +1,61 @@
+React :-
+        React is a Javascript Library.
+        It is used to build user interfaces (UI) for websites and web apps.
+        It was created by Meta Platforms.   
+
+Example:-
+        Buttons, menus, forms, and dynamic content on websites can be built easily using React.
+
+
+
+CreateElement using React:-
+                           React.CreateElement("tag",attributes,child).
+                           If you using online then you ReactCDN copy link then paste in HTML code after closing body tage        
+
+ReactDOM :-
+           ReactDOM.render(childen,parent):
+                             or
+           store in variable = ReactDOM.createRoot(parent) 
+           variable.reander(children)    
+
+JSX :- 
+       It is similar look like as HTML
+       ex:- <h1>hello</h1>
+
+Babel :-
+       Babel is a Javascript compiler
+       It is convert the JSX language to React.createElement
+       If you use online then you bableCDN copy link then paste in HTML after closing body tage
+       and link of JS his type name is "Text/babel" 
+
+Create Element using JSX :-
+                one element
+        Ex :-    store variable = <h1>hello</h1>
+
+                Multiple element  (multiple element create karne ke liye hamesa ek parent hona chahiye)
+        Ex :-     store variable = <div>
+                    <h1>hello</h1>
+                    <h2>hiii</h2>
+                </div>  
+
+Create Function:-
+                 Always function of first latter is capotal 
+                In JS function return any value.
+        syntax:-
+                function App(){
+                        return(
+                                element
+                        )
+                }        
+        Pass by value and argument 
+        In function pass any parameter the elemnt is pair of key and value
+        like:-
+               name="sumant" age={30}
+        Int value pass in pass inside the {}.
+
+
+Map() function:-
+                it's create a new array.it is use in javascript attreat the element
+
+        syntax: 
+                ArrayName.map(variable=><tag>{variable}<tage>)                                     
