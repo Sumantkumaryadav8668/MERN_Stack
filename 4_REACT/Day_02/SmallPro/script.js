@@ -14,7 +14,6 @@ function Main({user}){
         <h2>Hii {user.name}</h2>
         <h2>This page is part of first Website</h2>
         <h2> {user.age>18?"Login this page":"Not Login"} Your city is {user.city} </h2>
-
         </>
         
     )
@@ -33,7 +32,7 @@ function Footer({name}){
       // Result
 function Result(){
     return(
-        <>
+    <>
     <Header name="Sumant"></Header>
     <Main user={{name:'Sumant' ,age:21,city:'Palamu'}}></Main>
     <Footer name='Sumant'></Footer>
