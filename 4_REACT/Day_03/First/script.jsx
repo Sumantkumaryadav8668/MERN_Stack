@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const element = <>
+const element = <> {/*  */}
     <h1>Hello Coder Army</h1>
     <h2>kaise hai app</h2>
 </>
