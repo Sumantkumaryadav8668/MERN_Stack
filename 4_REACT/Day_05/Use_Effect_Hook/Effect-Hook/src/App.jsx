@@ -18,7 +18,7 @@ function App(){
 
     return(
         <>
-            <h1>GitHub Login</h1>
+            <h1>GitHub Login Pages</h1>
             <div>
                 {
                     user.map(user=>(
